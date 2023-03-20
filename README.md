@@ -14,4 +14,5 @@ And the e-ink display will automatically refresh every 10 seconds:
 ## Install dependencies in venv
     python3 -m venv sunnypi-env
     pip3 install -U selenium 
-    pip3 install -U PyVirtualDisplay 
+    pip3 install -U PyVirtualDisplay
+    pip3 install -U epdlib 
