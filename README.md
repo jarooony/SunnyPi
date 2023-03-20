@@ -10,3 +10,8 @@ The terminal will output some information:
 And the e-ink display will automatically refresh every 10 seconds:
 
 ![Display](SunnyPi.gif)
+
+## Install dependencies in venv
+    python3 -m venv sunnypi-env
+    pip3 install -U selenium 
+    pip3 install -U PyVirtualDisplay 
